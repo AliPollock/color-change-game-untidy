@@ -1,0 +1,72 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Kite One", sans-serif;
+}
+h1 {
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.4;
+	padding: 20px 0;
+}
+#selectedColor {
+	font-size: 150%;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 15%;
+	transition: background 0.5s;
+	--webtkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 10px;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+	border: none;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	outline: none;
+	--webtkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
